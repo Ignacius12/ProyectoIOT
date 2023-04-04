@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345043800868",
+    "project_id": "proyectoiot-4d4ce",
+    "storage_bucket": "proyectoiot-4d4ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345043800868:android:e9d6a9acb90d0f955159b1",
+        "android_client_info": {
+          "package_name": "com.example.proyectoiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345043800868-nkv4nmbod6of9901pdbstf8q3gjmbef1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3JPsHnY-kpyDY9DI4PnJxEro7VSdU5UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345043800868-nkv4nmbod6of9901pdbstf8q3gjmbef1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

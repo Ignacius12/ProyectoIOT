@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectoiot.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.proyectoiot.ui.gallery.GalleryFragment"
+        android:label="Mi Cuenta"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.proyectoiot.NotasFragment"
+        android:label="Mis Notas" />
+    <fragment
+        android:id="@+id/contactoFragment"
+        android:name="com.example.proyectoiot.ContactoFragment"
+        android:label="Atencion al cliente"
+        tools:layout="@layout/fragment_contacto" />
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="com.example.proyectoiot.CommunityFragment"
+        android:label="Community Valley"
+        tools:layout="@layout/fragment_community" />
+    <fragment
+        android:id="@+id/informacionFragment"
+        android:name="com.example.proyectoiot.SensorFragment"
+        android:label="Ayuda"
+        tools:layout="@layout/fragment_sensor" />
+</navigation>

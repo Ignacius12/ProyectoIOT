@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FAF5EF"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <Button
+        android:id="@+id/abrirPagina"
+        android:layout_width="292dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#03BB85"
+        android:onClick="AbrirPagina"
+        android:text="página de atención al cliente"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="292dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#c63637"
+        android:onClick="mandarCorreo"
+        android:text="Contacto por correo electrónico"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="292dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#74D4F4"
+        android:onClick="AbrirInstagram"
+        android:text="Contacto por Instagram"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/abrirPagina"
+        app:layout_constraintStart_toStartOf="@+id/abrirPagina"
+        app:layout_constraintTop_toBottomOf="@+id/abrirPagina" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="292dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#EBFF82"
+        android:onClick="llamarTelefono"
+        android:text="llamada al servicio técnico"
+        android:textColor="#000000"
+        app:cornerRadius="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="textGallery"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="105dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/contacto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

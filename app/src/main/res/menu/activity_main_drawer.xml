@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Mi Cuenta" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Mis Notas" />
+        <item
+            android:id="@+id/contactoFragment"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Atención al cliente" />
+        <item
+            android:id="@+id/informacionFragment"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Ayuda" />
+        <item
+            android:title="Community Valley"
+            android:icon="@drawable/ic_baseline_photo_camera_24"
+            android:id="@+id/communityFragment"/>
+    </group>
+</menu>

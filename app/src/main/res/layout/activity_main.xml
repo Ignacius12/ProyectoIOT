@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF5EF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/iniciarSesionPantalla"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#01835D"
+        android:onClick="irIniciar"
+        android:text="Iniciar Sesion"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#F44336"
+        android:textColorHint="#636060"
+        android:textColorLink="#673AB7"
+        app:cornerRadius="17dp"
+        app:iconTint="#F4F4F4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:rippleColor="#00BCD4"
+        app:strokeColor="#00BCD4" />
+
+    <Button
+        android:id="@+id/registrarPantalla"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FAF5EF"
+        android:onClick="irRegistrarse"
+        android:text="Registrarse"
+        android:textColor="#01835D"
+        app:cornerRadius="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/iniciarSesionPantalla"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/iniciarSesionPantalla"
+        app:layout_constraintTop_toBottomOf="@+id/iniciarSesionPantalla"
+        app:rippleColor="#00BCD4"
+        app:strokeColor="#01835D"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Smart Valley"
+        android:textColor="#01835D"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Una nueva forma de cultivar"
+        android:textColor="#01835D"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="255dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/margarita" />
+</androidx.constraintlayout.widget.ConstraintLayout>
